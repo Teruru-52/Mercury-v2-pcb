@@ -6465,7 +6465,7 @@
 		)
 		(uuid "0e1c0e38-4838-48a9-b481-78eb2e078fc7")
 	)
-	(hierarchical_label "IR_3R"
+	(hierarchical_label "IR_1R"
 		(shape input)
 		(at 48.26 92.71 180)
 		(fields_autoplaced yes)
@@ -6705,7 +6705,7 @@
 		)
 		(uuid "dc7ba920-b6a2-48ad-a8a2-77a631be711d")
 	)
-	(hierarchical_label "IR_1R"
+	(hierarchical_label "IR_3R"
 		(shape input)
 		(at 48.26 82.55 180)
 		(fields_autoplaced yes)

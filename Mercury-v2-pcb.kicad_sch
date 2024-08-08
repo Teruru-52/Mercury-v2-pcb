@@ -17,16 +17,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 124.46) (xy 181.61 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "153ba85b-ee9e-459d-b054-1d7b25e70252")
-	)
-	(wire
-		(pts
 			(xy 109.22 80.01) (xy 127 80.01)
 		)
 		(stroke
@@ -84,6 +74,16 @@
 			(type default)
 		)
 		(uuid "59fb0668-a76a-4476-b2c4-26de28bd2fa9")
+	)
+	(wire
+		(pts
+			(xy 168.91 120.65) (xy 181.61 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69f285d6-94f4-41c5-9b2b-382625d2b02b")
 	)
 	(wire
 		(pts
@@ -147,13 +147,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 120.65) (xy 181.61 120.65)
+			(xy 168.91 137.16) (xy 181.61 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93edc2b9-5736-4bd3-813e-a123cebfa319")
+		(uuid "926a1e0a-cc1e-416e-8675-93f5c1431663")
 	)
 	(wire
 		(pts
@@ -167,6 +167,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 133.35) (xy 181.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a134120b-e7ab-42b3-8c40-d8b2555d01bd")
+	)
+	(wire
+		(pts
 			(xy 168.91 62.23) (xy 181.61 62.23)
 		)
 		(stroke
@@ -174,16 +184,6 @@
 			(type default)
 		)
 		(uuid "a41d280a-28f2-4168-84e4-325770de93b8")
-	)
-	(wire
-		(pts
-			(xy 168.91 137.16) (xy 181.61 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b17e069e-cffd-48bd-ae34-99ca258c43d5")
 	)
 	(wire
 		(pts
@@ -780,7 +780,7 @@
 			(uuid "4f33a444-f5ac-4175-8583-50f2fd56af8d")
 		)
 		(pin "IR_LED2" input
-			(at 168.91 124.46 0)
+			(at 168.91 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +982,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 118.11)
+		(at 181.61 130.81)
 		(size 24.13 8.89)
 		(fields_autoplaced yes)
 		(stroke
@@ -994,7 +994,7 @@
 		)
 		(uuid "d22aae3d-b0f8-437f-811d-661b08c5b509")
 		(property "Sheetname" "ir_led"
-			(at 181.61 117.3984 0)
+			(at 181.61 130.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1003,7 @@
 			)
 		)
 		(property "Sheetfile" "ir_led.kicad_sch"
-			(at 181.61 127.5846 0)
+			(at 181.61 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1012,7 @@
 			)
 		)
 		(pin "IR_LED_IN1" input
-			(at 181.61 120.65 180)
+			(at 181.61 133.35 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,7 +1022,7 @@
 			(uuid "2b8983c0-fde8-4470-9161-f9ddc33cbc69")
 		)
 		(pin "IR_LED_IN2" input
-			(at 181.61 124.46 180)
+			(at 181.61 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1098,7 @@
 		)
 	)
 	(sheet
-		(at 181.61 133.35)
+		(at 184.15 116.84)
 		(size 24.13 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -1110,7 +1110,7 @@
 		)
 		(uuid "f3b3db06-3627-486f-8daa-a25eb9f18bb7")
 		(property "Sheetname" "ir_led_single"
-			(at 181.61 132.6384 0)
+			(at 184.15 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,7 +1119,7 @@
 			)
 		)
 		(property "Sheetfile" "ir_led_single.kicad_sch"
-			(at 181.61 141.5546 0)
+			(at 184.15 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,12 +1128,12 @@
 			)
 		)
 		(pin "IR_LED_IN" input
-			(at 181.61 137.16 180)
+			(at 208.28 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "4f6f4446-e9e7-4094-a787-49e241923b1d")
 		)
